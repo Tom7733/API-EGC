@@ -1,0 +1,13 @@
+api_platform:
+    mapping:
+        paths: ['%kernel.project_dir%/src/Entity']
+    patch_formats:
+        json: ['application/merge-patch+json']
+    formats:
+        json:
+            mime_types: ['application/json']
+        html:
+            mime_types: ['text/html']
+    title: 'API EGC'
+    description: "Service web pour la société EGC"
+    version: '1.0.0'
